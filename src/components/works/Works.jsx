@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./works.scss"
+import arrow from "../../assets/arrow.png"
 
 export default function Works() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -8,22 +9,22 @@ export default function Works() {
         {
             id: 1,
             title: "social Media app",
-            img: "assets/mark.jpg",
+            img: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         },
         {
             id: 2,
             title: "Web",
-            img: "assets/mark.jpg",
+            img: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         },
         {
             id: 3,
             title: "Logo",
-            img: "assets/mark.jpg",
+            img: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         },
         {
             id: 4,
             title: "function",
-            img: "assets/mark.jpg",
+            img: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         },
     ]
 
@@ -60,8 +61,8 @@ export default function Works() {
                     </div>))}
             </div>
 
-            <img src="assets/arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")} />
-            <img src="assets/arrow.png" className="arrow right" alt="" onClick={() => handleClick("right")} />
+            <img src={arrow} className="arrow left" alt="" onClick={() => handleClick("left")} />
+            <img src={arrow} className="arrow right" alt="" onClick={() => handleClick("right")} />
         </div>
     )
 }

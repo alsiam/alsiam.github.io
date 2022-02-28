@@ -2,6 +2,7 @@ import "./intro.scss"
 import { ExpandMoreSharp } from "@material-ui/icons"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
+import profile from "../../assets/saifalsiam.png"
 
 export default function Intro() {
 
@@ -14,7 +15,7 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/myImg.png" alt="" />
+                    <img src={profile} alt="" />
                 </div>
             </div>
             <div className="right">

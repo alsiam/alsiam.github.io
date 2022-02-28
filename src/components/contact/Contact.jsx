@@ -9,6 +9,12 @@ export default function Contact() {
         <div className="contact" id="contact">
             <div className="left">
                 <h1>Let's discuss about the project</h1>
+                <div className="contact-info">
+                    <span>Phone: 01611210222</span>
+                    <span>Phone: 01611210222</span>
+                    <span>Phone: 01611210222</span>
+                    <span>Phone: 01611210222</span>
+                </div>
             </div>
             <div className="right">
                 <h2>Contact.</h2>

@@ -1,5 +1,5 @@
 {
-  "homepage": "http://alsiam.github.io/alsiam.github.io",
+  "homepage": "http://alsiam.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

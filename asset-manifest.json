@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/alsiam.github.io/static/css/main.d03ce888.chunk.css",
+    "main.js": "/alsiam.github.io/static/js/main.c1fb5e06.chunk.js",
+    "main.js.map": "/alsiam.github.io/static/js/main.c1fb5e06.chunk.js.map",
+    "runtime-main.js": "/alsiam.github.io/static/js/runtime-main.14280367.js",
+    "runtime-main.js.map": "/alsiam.github.io/static/js/runtime-main.14280367.js.map",
+    "static/js/2.fdda4dfd.chunk.js": "/alsiam.github.io/static/js/2.fdda4dfd.chunk.js",
+    "static/js/2.fdda4dfd.chunk.js.map": "/alsiam.github.io/static/js/2.fdda4dfd.chunk.js.map",
+    "index.html": "/alsiam.github.io/index.html",
+    "static/css/main.d03ce888.chunk.css.map": "/alsiam.github.io/static/css/main.d03ce888.chunk.css.map",
+    "static/js/2.fdda4dfd.chunk.js.LICENSE.txt": "/alsiam.github.io/static/js/2.fdda4dfd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14280367.js",
+    "static/js/2.fdda4dfd.chunk.js",
+    "static/css/main.d03ce888.chunk.css",
+    "static/js/main.c1fb5e06.chunk.js"
+  ]
+}

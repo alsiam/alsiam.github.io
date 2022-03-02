@@ -1,4 +1,4 @@
-export const featuredPortfolio = [
+export const featuredport = [
     {
         id: 1,
         title: "social Media app",
@@ -20,7 +20,7 @@ export const featuredPortfolio = [
         img: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
 ];
-export const webPortfolio = [
+export const frontendport = [
     {
         id: 1,
         title: "social Media app",
@@ -38,7 +38,7 @@ export const webPortfolio = [
     },
     
 ];
-export const mobilePortfolio = [
+export const fullstackport = [
     {
         id: 1,
         title: "social Media app",
@@ -60,7 +60,7 @@ export const mobilePortfolio = [
         img: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
 ];
-export const designPortfolio = [
+export const wordpressport = [
     {
         id: 1,
         title: "social Media app",

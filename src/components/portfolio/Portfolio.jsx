@@ -1,14 +1,12 @@
-import { useState } from "react"
-import PortfolioList from "../portfoliolist/PortfolioList"
-import "./portfolio.scss"
+import { useEffect, useState } from "react";
 import {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio
+    featuredport,
+    frontendport,
+    fullstackport,
+    wordpressport
 } from "../../data";
-import { useEffect } from "react";
+import PortfolioList from "../portfoliolist/PortfolioList";
+import "./portfolio.scss";
 
 export default function Portfolio() {
 
@@ -21,41 +19,33 @@ export default function Portfolio() {
             title: "Featured",
         },
         {
-            id: "design",
-            title: "Design",
-        },
-        {
-            id: "web",
-            title: "Web App",
+            id: "frontend",
+            title: "Front-end",
         }, {
-            id: "mobile",
-            title: "Mobile App",
+            id: "fullstack",
+            title: "Full Stack",
         }, {
-            id: "content",
-            title: "Content",
+            id: "wordpress",
+            title: "WordPress",
         },
     ];
 
     useEffect(() => {
         switch (selected) {
             case "featured":
-                setData(featuredPortfolio);
+                setData(featuredport);
                 break;
-            case "web":
-                setData(webPortfolio);
+            case "frontend":
+                setData(frontendport);
                 break;
-            case "mobile":
-                setData(mobilePortfolio);
+            case "fullstack":
+                setData(fullstackport);
                 break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            case "contact":
-                setData(contentPortfolio
-                );
+            case "wordpress":
+                setData(wordpressport);
                 break;
             default:
-                setData(featuredPortfolio);
+                setData(featuredport);
 
         }
     }, [selected])

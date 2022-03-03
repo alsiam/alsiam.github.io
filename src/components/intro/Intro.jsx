@@ -2,7 +2,7 @@ import "./intro.scss"
 import { ExpandMoreSharp } from "@material-ui/icons"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
-import profile from "../../assets/saifalsiam.png"
+import profile from "../../assets/images/saifalsiam.png"
 
 export default function Intro() {
 

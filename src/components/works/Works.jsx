@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./works.scss"
-import arrow from "../../assets/arrow.png"
+import arrow from "../../assets/images/arrow.png"
 
 export default function Works() {
     const [currentSlide, setCurrentSlide] = useState(0);
